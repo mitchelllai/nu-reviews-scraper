@@ -6,10 +6,14 @@ To test the script:
 ```
 pipenv install
 ```
-5. Ensure that you have a Chrome browser installed.
-6. Download a chromedriver executable (https://chromedriver.chromium.org/downloads) that matches your version of Chrome, and place the executable in a file that is in your system PATH. 
-7. Copy a .env file that connects to a MongoDB cluster into the root directory of this repo.
-8. Run the script from the root of this directory as follows:
+5. Activate the virtual environment:
+```
+pipenv shell
+```
+6. Ensure that you have a Chrome browser installed.
+7. Download a chromedriver executable (https://chromedriver.chromium.org/downloads) that matches your version of Chrome, and place the executable in a file that is in your system PATH. 
+8. Copy a .env file that connects to a MongoDB cluster into the root directory of this repo.
+9. Run the script from the root of this directory as follows:
 ```
 python scraper.py
 ```
